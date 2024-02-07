@@ -156,7 +156,7 @@ while (player2.hand.length > 0) {
   discardPile.push(player2.hand.pop()); // flyttar korten från spelarens hand till kasthögen
 }
 
-console.log("\nSpelarna kastar alla dina kort i kasthögen:", discardPile);
+console.log("\nSpelarna kastar alla sina kort i kasthögen:", discardPile);
 
 deck.cards.push(...discardPile); // flyttar kasthögen till kortleken
 discardPile.length = 0; // sätter värdet på kasthögen till 0 (tom)
